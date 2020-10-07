@@ -18,7 +18,9 @@ select `build.gradle` and right click > refresh gradle project
 ### lunch program
 
 open your workspace in eclipse
+
 select `src/main/java/com.dojo.worldclock.WorldclockApplication.java` and right click
+
 Run As > Java Application
 
 open url http://localhost:8080/hello 
