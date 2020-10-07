@@ -13,19 +13,20 @@ https://github.com/Null-PE/JavaPlayground.git -> git@github.com:kobain-jp/worldc
 
 ### import to eclipse
 File > import > Gradle > Existing Gradle project
-select build.gradle and right click > refresh gradle project
+select `build.gradle` and right click > refresh gradle project
 
 ### lunch program
 
 open your workspace in eclipse
-select src/main/java/com.dojo.worldclock.WorldclockApplication.java and right click
+select `src/main/java/com.dojo.worldclock.WorldclockApplication.java` and right click
 Run As > Java Application
 
 open url http://localhost:8080/hello 
 then 'Welcome to SpringBoot' will be showed 
 
 if you use 8080, you could change port by editing following file.
-src/main/resources/application.properties
+
+`src/main/resources/application.properties`
 
 ex:if you use 8081
 `server.port=8081`
