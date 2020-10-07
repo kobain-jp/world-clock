@@ -25,13 +25,12 @@ Run As > Java Application
 
 open url http://localhost:8080/hello by using your browser and 'Welcome to SpringBoot' will be showed 
 
-if you use 8080, you could change port by editing following file.
+*if you use 8080, you could change port by editing following file.
 
 `src/main/resources/application.properties`
 
-ex:if you want to use 8081
 `server.port=8081`
-
+*the above is example to use 8081
 
 
 
