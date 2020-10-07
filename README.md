@@ -23,8 +23,7 @@ select `src/main/java/com.dojo.worldclock.WorldclockApplication.java` and right 
 
 Run As > Java Application
 
-open url http://localhost:8080/hello 
-then 'Welcome to SpringBoot' will be showed 
+open url http://localhost:8080/hello by using your browser and 'Welcome to SpringBoot' will be showed 
 
 if you use 8080, you could change port by editing following file.
 
