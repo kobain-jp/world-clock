@@ -9,8 +9,8 @@
 - 必達:TimeZoneを使ったSimpleDateFormatの使い方
 - 必達:tableタグの書き方
 - オプショナル:静的ファイル（css/js/image）の追加の仕方
-- 簡単ないくつかのcssプロパティを使った画面の装飾
-- 簡単ないくつかのjsメソッド window.location.reload
+- オプショナル:簡単ないくつかのcssプロパティを使った画面の装飾
+- オプショナル:簡単ないくつかのjsメソッド window.location.reload
 
 ## setup
 
