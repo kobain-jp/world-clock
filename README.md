@@ -1,6 +1,7 @@
 # worldclockを作ろう！！
 
 日本、中国、インドの時間が表示されるアプリを作ります。
+[完成イメージ](https://github.com/kobain-jp/worldclock/blob/main/img-resource/goal-image.png)
 
 ## setup
 
