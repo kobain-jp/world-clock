@@ -4,12 +4,12 @@
 
 ### clone project
 
-`git clone git@github.com:kobain-jp/worldclock.git`
+`git clone https://github.com/kobain-jp/worldclock.git`
 
 if you are not familer with command line and click [here](https://github.com/Null-PE/JavaPlayground/blob/master/doc/setup.md)
 
 手順5. 上記の[URI] に https://github.com/Null-PE/JavaPlayground.git を貼り付けて、以下に変更する
-https://github.com/Null-PE/JavaPlayground.git -> git@github.com:kobain-jp/worldclock.git
+https://github.com/Null-PE/JavaPlayground.git -> https://github.com/kobain-jp/worldclock.git
 
 ### import to eclipse
 File > import > Gradle > Existing Gradle project
