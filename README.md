@@ -7,10 +7,10 @@
 - 必達:SpringBoot(Spring Web)で新しいURLに対応したWebページの追加の仕方　@GetMapping/@Controller　
 - 必達:ControllerからTymeleafへのマッピングする値の渡し方
 - 必達:TimeZoneを使ったSimpleDateFormatの使い方
-- 必達:<h1>タグ、<table>タグの書き方
-- オプショナル:thymeleafでの静的ファイル（css/js/image）の追加の仕方
-- オプショナル:簡単ないくつかのcssプロパティを使った画面の装飾
-- オプショナル:簡単ないくつかのjsメソッド window.location.reload
+- 必達:h1タグ、tableタグ、imageタグの書き方
+- thymeleafでの静的ファイル（css/js/image）の追加の仕方
+- 簡単ないくつかのcssプロパティを使った画面の装飾
+- 簡単ないくつかのjsメソッド window.location.reload
 
 ## setup
 
