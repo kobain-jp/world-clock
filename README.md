@@ -1,4 +1,6 @@
-# worldclock
+# worldclockを作ろう！！
+
+日本、中国、インドの時間が表示されるアプリを作ります。
 
 ## setup
 
