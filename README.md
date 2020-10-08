@@ -18,6 +18,9 @@
 
 `git clone https://github.com/kobain-jp/worldclock.git`
 
+the above is created by following settings of spring initializr
+[Spring Initilizrから作る設定例](https://github.com/kobain-jp/worldclock/blob/main/img-resource/how%20to%20generate%20template%20via%20spring%20initializr.png)
+
 ### import to eclipse
 
 File > import > Gradle > Existing Gradle project
@@ -223,11 +226,11 @@ public String index(Model model) {
 
 tableタグの利用 
 
-### 7. フッターを追加しよう
+### 8. フッターを追加しよう
 
 main、footerタグを利用したhtmlの構造化
 
-### 8. 時間が更新されないので、jsで定期的に更新されるようにしよう
+### 9. 時間が更新されないので、jsで定期的に更新されるようにしよう
 
 
 30秒に一回自動でリロードがかかるようにしましょう
