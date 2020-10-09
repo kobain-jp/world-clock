@@ -280,7 +280,7 @@ setTimeout(reload,3000);
 setTimeout
 https://techacademy.jp/magazine/5541
 
-### 10. 多言語対応しよう WorldClock <--> 世界時計
+### 10. 多言語対応しよう WorldClock <--> せかいどけい
 
 ### 11. OSSライブラリを使って手軽にかっこいいフォントにしよう
 classセレクタ
