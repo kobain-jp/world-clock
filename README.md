@@ -282,6 +282,8 @@ https://techacademy.jp/magazine/5541
 
 ### 10. 多言語対応しよう WorldClock <--> 世界時計
 
+### 11. かっこいいフォントにしよう
+https://googlefonts.github.io/japanese/
 
 ### 11. Gradleで実行可能jarを作ろう
 
