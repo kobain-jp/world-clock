@@ -243,7 +243,7 @@ main、footerタグを利用したhtmlの構造化
 以下フォルダを作成
 
 ```
-src/main/resources/static/jsja
+src/main/resources/static/js
 ```
 
 右クリック> new > other > javascript からapp.jsを作成
@@ -279,3 +279,11 @@ setTimeout(reload,3000);
 
 setTimeout
 https://techacademy.jp/magazine/5541
+
+### 10. 多言語対応しよう
+
+
+### 11. Gradleのタスクを利用して実行可能jarを作ろう
+
+
+### 12. Herokuを利用して世界に公開しよう
