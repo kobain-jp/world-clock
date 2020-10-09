@@ -285,7 +285,7 @@ https://techacademy.jp/magazine/5541
 ### 11. OSSライブラリを使って手軽にかっこいいフォントにしよう
 https://googlefonts.github.io/japanese/
 
-### 12. Gradleで実行可能jarを作ろう
+### 12. Gradleタスクで実行可能jarを作って、jarでアプリを起動させよう
 
 
 ### 13. Herokuを利用してWorldClockを世界に公開しよう
