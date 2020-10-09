@@ -280,10 +280,10 @@ setTimeout(reload,3000);
 setTimeout
 https://techacademy.jp/magazine/5541
 
-### 10. 多言語対応しよう
+### 10. 多言語対応しよう WorldClock <--> 世界時計
 
 
-### 11. Gradleのタスクを利用して実行可能jarを作ろう
+### 11. Gradleで実行可能jarを作ろう
 
 
-### 12. Herokuを利用して世界に公開しよう
+### 12. Herokuを利用してWorldClockを世界に公開しよう
