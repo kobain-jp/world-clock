@@ -213,10 +213,12 @@ public String index(Model model) {
 		SimpleDateFormat sdf = new SimpleDateFormat("E HH:mm");
 		String dateStr = sdf.format(new Date());
 		model.addAttribute("jpDate", dateStr);
-		// src/main/resources以下に配置した引数の文字列.htmlがHTML作成に利用される
 		
 		sdf.setTimeZone(TimeZone.getTimeZone("IST"));
 		model.addAttribute("istDate", sdf.format(new Date()));
+		
+		sdf.setTimeZone(TimeZone.getTimeZone("PRC"));
+		model.addAttribute("cstDate", sdf.format(new Date()));
 		
 		return "index";
 	}
