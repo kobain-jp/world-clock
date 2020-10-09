@@ -289,7 +289,10 @@ classセレクタ
 <h1 class="title"></h1>
 ```
 
+https://saruwakakun.com/html-css/basic/font-family-how-to
+
 https://developers.google.com/fonts/docs/getting_started
+
 https://googlefonts.github.io/japanese/
 
 ### 12. Gradleタスクで実行可能jarを作って、jarでアプリを起動させよう
