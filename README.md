@@ -284,6 +284,12 @@ https://techacademy.jp/magazine/5541
 
 ### 11. OSSライブラリを使って手軽にかっこいいフォントにしよう
 classセレクタ
+
+```
+<h1 class="title"></h1>
+```
+
+https://developers.google.com/fonts/docs/getting_started
 https://googlefonts.github.io/japanese/
 
 ### 12. Gradleタスクで実行可能jarを作って、jarでアプリを起動させよう
