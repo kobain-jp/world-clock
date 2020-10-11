@@ -501,10 +501,13 @@ setTimeout(reload,3000);
 
 ### 10. 多言語対応しよう WorldClock <--> せかいどけい
 
-src/main/resourcesに以下の名前のファイルを作成
+src/main/resourcesに以下の名前のファイルを作成するが、
+先にmessages-resouceフォルダにサンプルを作っといたので、コピペ
 
 messages.properties　　
+
 messages_ja.properties　
+
 messages_zh.properties  
 
 messages.properties
