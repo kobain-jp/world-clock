@@ -790,6 +790,7 @@ worldclockのルートディレクトリで以下のコマンドを実行
 
 herokuのリモートにgitリポジトリが作られる
 ローカルでもremote add heroku　作られたリポジトリのアドレスが行われている。
+`git remote`で確認
 
 `git push heroku main`
 *いつもはoriginのところがherokuになっている
