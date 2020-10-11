@@ -378,7 +378,7 @@ F12 DeveloperToolでCSSの試行錯誤をしよう
 ```
 
 footer{
-	position: absolute;
+    position: absolute;
     bottom: 0;
     text-align: right;
     width: 95%;
@@ -396,6 +396,8 @@ footerタグを使ったついでにHTML5の一般的な構造にしよう
 <footer></footer>
 
 ```
+
+index.htmlを編集
 
 ```
 <body>
@@ -475,6 +477,7 @@ setTimeout(reload,3000);
 ```
 
 setTimeout
+
 https://techacademy.jp/magazine/5541
 
 即時実行関数にしてnamespaceの競合を防ごう
@@ -545,6 +548,7 @@ index.htmlを編集
 http://localhost:8080/world-clock にアクセス
 
 ブラウザの言語を切り替えて確認しよう
+
 https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=ja
 
 
@@ -590,6 +594,7 @@ h1 {
 
 
 英語用フォントも以下から探してみよう
+
 https://fonts.google.com/
 
 
@@ -616,6 +621,7 @@ h1 {
 http://localhost:8080/world-clock にアクセス
 
 ブラウザの言語を切り替えて確認しよう
+
 https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=ja
 
 
@@ -670,9 +676,8 @@ classで上記のように指定する方が一般的です。
 
 時計アイコンとアプリのタイトルを近づけよう
 デザインの４原則のひとつ「近接」を利用しよう
-https://bulan.co/swings/design4principals/
 
-DeveloperToolで不要な空白を確認
+https://bulan.co/swings/design4principals/
 
 h1のデフォルトのマージンを上書きする
 
@@ -757,6 +762,19 @@ https://devcenter.heroku.com/articles/getting-started-with-java#set-up
 
 コマンドプロンプトから以下を実施
 
+ワールドクロックのディレクトリまで移動
+`cd worldclock`
+
+いままので成果をローカルgitにコミット
+`git status`
+
+`git add .`
+*普段はちゃんとファイル指定してね。。
+
+`git commit -m 'commit files'`
+
+
+
 `heroku login`と入力しEnter
 
 `heroku: Press any key to open up the browser to login or q to exit:` 
@@ -764,10 +782,6 @@ https://devcenter.heroku.com/articles/getting-started-with-java#set-up
 と表示されるので、Enterし、ブラウザが立ち上がるので、ログイン
 
 worldclockのルートディレクトリで以下のコマンドを実行
-いままので成果をローカルgitにコミット
-`git status`
-`git add XXXX`
-`git commit -m 'commit files'`
 
 `git push heroku main`
 *いつもはoriginのところがherokuになっている
