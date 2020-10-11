@@ -786,6 +786,11 @@ https://devcenter.heroku.com/articles/getting-started-with-java#set-up
 
 worldclockのルートディレクトリで以下のコマンドを実行
 
+`heroku create`
+
+herokuのリモートにgitリポジトリが作られる
+ローカルでもremote add heroku　作られたリポジトリのアドレスが行われている。
+
 `git push heroku main`
 *いつもはoriginのところがherokuになっている
 *mainは最近人権運動のためmasterから変わりました
