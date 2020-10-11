@@ -695,7 +695,7 @@ h1 {
 
 http://localhost:8080/world-clock にアクセス
 
-### 14.キャッチアップした知識を応用して自分の好きにカスタマイズしよう
+### 13.キャッチアップした知識を応用して自分の好きにカスタマイズしよう
 -  背景を好きな写真にしてみよう
 
 static/img/xxx.jpgに配置
@@ -735,7 +735,7 @@ https://techacademy.jp/magazine/9799
 -  国を増やしてみよう
 -  時刻のフォーマットを変えてみよう
 
-### 13. Gradleタスクで実行可能jarを作って、jarでアプリを起動させよう
+### 14. Gradleタスクで実行可能jarを作って、jarでアプリを起動させよう
 
 Window > Show view > Gradle Tasks 
 worldclock > build > bootJar を選択し、右クリックし Run Gradle Tasks
@@ -754,7 +754,7 @@ java -jar worldclock-0.0.1-SNAPSHOT.jar --server.port=8081
 
 http://localhost:8081/world-clock にアクセス
 
-### 13. Herokuを利用してWorldClockを世界に公開しよう
+### 15. Herokuを利用してWorldClockを世界に公開しよう
 
 アカウントを作ろう
 https://signup.heroku.com/jp
