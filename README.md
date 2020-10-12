@@ -247,6 +247,7 @@ index.htmlに各国の時間用の変数の追加
 WorldClockControllerで値をセットしよう
 
 SimpleDateFormatにtimeZoneをセットしよう
+
 参考:https://qiita.com/niwasawa/items/7ac1ea4c05c15e4b46fc
 
 ```
@@ -301,7 +302,9 @@ http://localhost:8080/world-clock にアクセス
 ### 7. tableタグを使って、横に並べよう
 
 table タグってなに？　`table　タグ mdn`で検索
+
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/table
+
 上記のサイトでHTML Demoをいじって、レイアウトを作ってみよう
 
 ```
@@ -429,6 +432,8 @@ index.htmlを編集
 
 ```
 
+参考
+
 https://heysho.com/html5/
 
 ### 9. 時間が更新されないので、jsで定期的に更新されるようにしよう
@@ -475,7 +480,7 @@ function reload(){
   window.location.reload();
 }
 
-setTimeout(reload,3000);
+setTimeout(reload,60000);
 ```
 
 setTimeout
@@ -488,11 +493,11 @@ https://techacademy.jp/magazine/5541
 
 (function () {
 
-function reload(){
-  window.location.reload();
-}
+  function reload(){
+    window.location.reload();
+  }
 
-setTimeout(reload,3000);
+  setTimeout(reload,3000);
 
 
 }());
@@ -503,16 +508,15 @@ setTimeout(reload,3000);
 
 ### 10. 多言語対応しよう WorldClock <--> せかいどけい
 
-src/main/resourcesに以下の名前のファイルを作成するが、
-先にmessages-resouceフォルダにサンプルを作っといたので、コピペ
+src/main/resourcesに以下の名前のファイルを作成
 
 messages.properties　　
-
 messages_ja.properties　
-
 messages_zh.properties  
 
-messages.properties
+*先にmessages-resouceフォルダにサンプあり
+
+messages.properties　　
 デフォルト
 
 ```
@@ -549,6 +553,7 @@ index.htmlを編集
 	</footer>
 	
 ```
+
 再起動後（重要）に
 http://localhost:8080/world-clock にアクセス
 
@@ -560,6 +565,7 @@ https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=j
 ### 11. OSSライブラリを使って手軽にかっこいいフォントにしよう
 
 ブラウザに実装されている総称フォントファミリーのどれかを使ってみる
+
 https://developer.mozilla.org/ja/docs/Web/CSS/font-family
 
 app.cssに以下を追加
@@ -761,42 +767,26 @@ http://localhost:8081/world-clock にアクセス
 アカウントを作ろう
 https://signup.heroku.com/jp
 
-
 heroku CLI をインストールしよう
 https://devcenter.heroku.com/articles/getting-started-with-java#set-up
 
-コマンドプロンプトから以下を実施
-
-ワールドクロックのディレクトリまで移動
+コマンドプロンプトにてworldclockのルートディレクトリまで移動
 `cd worldclock`
 
 いままので成果をローカルgitにコミット
-`git status`
-
-`git add .`
+```
+git add .
+git commit -m 'commit files'
+```
 *普段はちゃんとファイル指定してね。。
 
-`git commit -m 'commit files'`
+Herokuにデプロイ
+```
+heroku login
+heroku create
+git push heroku main
 
-
-
-`heroku login`と入力しEnter
-
-`heroku: Press any key to open up the browser to login or q to exit:` 
-
-と表示されるので、Enterし、ブラウザが立ち上がるので、ログイン
-
-worldclockのルートディレクトリで以下のコマンドを実行
-
-`heroku create`
-
-herokuのリモートにgitリポジトリが作られる
-ローカルでもremote add heroku　作られたリポジトリのアドレスが行われている。
-`git remote`で確認
-
-`git push heroku main`
-*いつもはoriginのところがherokuになっている
-*mainは最近人権運動のためmasterから変わりました
+```
 
 完了すると `Verifying deploy... done.`と表示される
 
