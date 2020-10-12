@@ -238,7 +238,7 @@ index.htmlに各国の時間用の変数の追加
 	<div th:text="${istDate}"></div>
 	
 	<img th:src="@{/img/cn.png}">
-	<div th:text="${cnDate}"></div>
+	<div th:text="${cstDate}"></div>
 
 ```
 
@@ -547,7 +547,7 @@ index.htmlを編集
 	</footer>
 	
 ```
-
+再起動後（重要）に
 http://localhost:8080/world-clock にアクセス
 
 ブラウザの言語を切り替えて確認しよう
