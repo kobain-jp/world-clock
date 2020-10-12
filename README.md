@@ -10,6 +10,8 @@
 - thymeleafでの静的ファイル（css/js/img）の追加の仕方
 - cssを利用した画面の装飾
 - main tag/footer tagの利用
+- 総称font family、web fontの使い方
+- SpringBootの多言語対応
 - 簡単ないくつかのjsメソッド window.location.reload
 
 ## setup
