@@ -4,3 +4,24 @@ body {
 	text-align: center;
 	background-color: pink;
 }
+
+table {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	text-align: right;
+	width: 95%;
+}
+
+h1 {
+	font-family: 'Chilanka', 'Hannari', cursive;
+	margin-top: 5px;
+}
+
+.world-clock {
+	margin-top: 15px;
+}

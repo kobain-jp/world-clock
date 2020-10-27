@@ -4,11 +4,41 @@
 <head>
 <meta charset="UTF-8">
 <title>world clock</title>
+<link
+	href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css"
+	rel="stylesheet">
 <link th:href="@{/css/app.css}" rel="stylesheet">
 </head>
 <body>
-	<h1>world clock</h1>
-	<img th:src="@{/img/jp.png}">　
-	<div th:text="${jpDate}"></div>
+	<header>
+		<img class="world-clock" th:src="@{/img/clock.png}">
+		<h1 th:text="#{header.title}"></h1>
+	</header>
+	<main>
+		<table>
+			<tbody>
+				<tr>
+					<td><img th:src="@{/img/jp.png}"></td>
+					<td><img th:src="@{/img/in.png}"></td>
+					<td><img th:src="@{/img/cn.png}"></td>
+				</tr>
+				<tr>
+					<td><div th:text="${jpDate}"></div></td>
+					<td>
+						<div th:text="${istDate}"></div>
+					</td>
+					<td>
+						<div th:text="${cstDate}"></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+	<footer>
+		<p th:text="#{footer.signature}"></p>
+	</footer>
+	<script type="text/javascript" th:src="@{/js/app.js}"></script>
 </body>
 </html>

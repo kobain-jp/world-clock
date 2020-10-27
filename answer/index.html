@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+<link th:href="@{/css/app.css}" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css"
+	rel="stylesheet">
+</head>
+<body>
+	<h1 class="title">World Clock</h1>
+	<img th:src="@{/img/jp.png}">
+	<div th:text="${jpDate}"></div>
+	<script type="text/javascript" th:src="@{/js/app.js}"></script>
+</body>
+</html>
